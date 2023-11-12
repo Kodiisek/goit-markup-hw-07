@@ -1399,6 +1399,9 @@ h1, h2, h3, h4, h5, h6, p, ul {
 /* ================================================= MOBILE 👇 ========================================= */
 @media screen and (min-width: 428px) and (max-width: 768px) {
 
+    body{
+        overflow-x: hidden;
+    }
 
     .container {
         max-width: 428px;
@@ -2764,6 +2767,10 @@ h1, h2, h3, h4, h5, h6, p, ul {
 
 /* ================================================= TABLET 👇 ========================================= */
 @media screen and (min-width: 769px) and (max-width: 1157px) {
+
+    body{
+        overflow-x: hidden;
+    }
 
     .menu-container, .hamburger{
         display: none;
